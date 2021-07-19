@@ -1,20 +1,20 @@
 public class Main {
     public static void main(String[] args) {
-         int balance = 2000;
-         int Adding = 80000;
+         int amount = 2000;
+         int adding = 10000;
          int mel = 100;
-        int basicbalance;
-        int bbalance;
-         if (Adding > 1000)
+        int bonusbalance;
+         if (adding > 1000)
          {
-              bbalance = Adding / mel;
-              basicbalance = bbalance + Adding + balance;
+             bonusbalance = adding / mel;
+             System.out.println(bonusbalance);
          }
          else {
-              basicbalance = Adding + balance;
-         }
+            bonusbalance = adding + amount ;
+        }
+    int balance = bonusbalance + amount;
+         System.out.println(balance);
 
-        System.out.println(basicbalance);
 
     }
 }
