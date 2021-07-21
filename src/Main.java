@@ -1,19 +1,19 @@
 public class Main {
     public static void main(String[] args) {
          int amount = 2000;
-         int adding = 50;
+         int adding = 555220;
          int mel = 100;
-         int bonusbalance;
+         int bonusBalance;
          if (adding > 1000)
          {
-             bonusbalance = adding / mel;
-             System.out.println(bonusbalance);
+             bonusBalance = adding / mel;
+             System.out.println(bonusBalance);
          }
          else {
-             bonusbalance = 0 ;
+             bonusBalance = 0 ;
 
          }
-        int balance = bonusbalance + amount + adding ;
+        int balance = bonusBalance + amount + adding ;
         System.out.println(balance);
 
 
